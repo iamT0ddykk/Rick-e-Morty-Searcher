@@ -8,9 +8,9 @@ O **Rick-e-Morty-Searcher** permite pesquisar e visualizar informações sobre d
 
 ## 📸 Preview
 
-<img
-src="/print1.png"
-/>
+## 📸 Preview
+
+![Preview do projeto](./public/print1.png)
 <img
 src="/print2.png"
 />
