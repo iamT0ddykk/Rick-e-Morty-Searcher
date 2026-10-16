@@ -45,11 +45,6 @@ export function InputFetch() {
     <div className="relative max-w-md mx-auto p-6 bg-black border-2 border-cyan-500 font-mono text-cyan-400 shadow-[0_0_30px_rgba(0,255,255,0.3)] [clip-path:polygon(0_0,100%_0,100%_calc(100%-20px),calc(100%-20px)_100%,0_100%)]">
       <div className="absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%)] bg-size-[100%_4px] pointer-events-none opacity-50 z-20" />
 
-      <div className="flex justify-between items-center text-[10px] text-cyan-600 mb-4 tracking-widest border-b border-cyan-900 pb-1">
-        <span>[SYS.LOC_V3.0]</span>
-        <span className="animate-pulse">● LIVE_FEED</span>
-      </div>
-
       <div className="flex flex-col gap-4 relative z-10">
         <div className="relative">
           <input
@@ -71,11 +66,6 @@ export function InputFetch() {
 
       {character && (
         <div className="mt-6 p-4 bg-cyan-950/30 border-2 border-cyan-500/80 relative z-10 flex flex-col items-center gap-4 [clip-path:polygon(0_0,100%_0,100%_calc(100%-15px),calc(100%-15px)_100%,0_100%)]">
-          <div className="w-full flex justify-between text-[9px] text-cyan-500/70 border-b border-cyan-800 pb-1 uppercase">
-            <span>TARGET_FOUND</span>
-            <span>ID: #{character.id || "000"}</span>
-          </div>
-
           <div className="relative border-2 border-cyan-400 p-1 bg-black shadow-[0_0_15px_rgba(0,255,255,0.4)]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
